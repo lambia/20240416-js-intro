@@ -34,7 +34,10 @@ const b = 2;
 const risultato = a	* b;
 
 //Riscrivo il testo nell'H1, sostituendolo con il risultato
-document.getElementById("titolo").innerHTML = risultato;
+// document.getElementById("titolo").innerHTML = risultato;
+
+//Riscrivo il testo nell'H1, sostituendolo con il risultato e un messaggino (uso backtick)
+document.getElementById("titolo").innerHTML = `Il risultato di ${a}x${b} è: ${risultato}`;
 
 
 
